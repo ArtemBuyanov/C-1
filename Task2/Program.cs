@@ -6,8 +6,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
     System.Console.WriteLine($"Максимальное число равно: {a}");
+    System.Console.WriteLine($"Минимальное число равно: {b}");
 }
 else
 {
     System.Console.WriteLine($"Максимаьное число равно: {b}");
+    System.Console.WriteLine($"Минимальное число равно: {a}");
 }
